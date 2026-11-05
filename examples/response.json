@@ -1,0 +1,11 @@
+{
+  "departures": [
+    {
+      "route": "7",
+      "destination": "Central Station",
+      "departure": 4102444800000,
+      "delay_minutes": 3,
+      "cancelled": false
+    }
+  ]
+}
