@@ -1,0 +1,55 @@
+{
+  "captured_at": "2026-11-05T13:58:55.249447+00:00",
+  "application": {
+    "format_version": 1,
+    "id": "app.imalkav.departure_board",
+    "name": "Departure Board",
+    "version": "0.1.0",
+    "api_version": "27.14.0",
+    "author": "iMalkav",
+    "description": "Upcoming departures with delay and cancellation details.",
+    "heap_size_kib": 384,
+    "debug": false
+  },
+  "firmware": {
+    "version": "r1051",
+    "target": 21,
+    "branch": "dev",
+    "build_date": "2026-10-30",
+    "commit_hash": "6ee64ba1",
+    "intercom_version": "6ee64ba1",
+    "nwp_version": "1611.2.1.1.255.11.71",
+    "matter_version": "1.0"
+  },
+  "api_version": "27.15.0",
+  "method": "GET /api/screen?display=0 and display=1; base64 decoded and saved as PNG without resizing or retouching",
+  "settings": {
+    "version": 1,
+    "values": {
+      "source_url": "https://raw.githubusercontent.com/iMalkav/busybar-departure-board/d20f9c8f2bc35ddf565a2310432c10f59237da9c/examples/screenshot.json",
+      "token": "",
+      "refresh_s": 30,
+      "stop_name": "Departures"
+    }
+  },
+  "inputs": [],
+  "data_note": "Example JSON data served from the public source repository; these are demonstration values, not a live third-party integration.",
+  "fixture": "examples/screenshot.json",
+  "frames": [
+    {
+      "path": "screenshots/front.png",
+      "width": 72,
+      "height": 16,
+      "frame_sha256": "a5aa470d1a70cd908699dc07a1eac5f1a4af8f5663cca28960a32bae6c231116",
+      "png_sha256": "135eb01200e64f347c6b97c3a0be2708ec5e8707edf4013fc935bb9fb779144d"
+    },
+    {
+      "path": "screenshots/back.png",
+      "width": 160,
+      "height": 80,
+      "frame_sha256": "0f59cb40bf7441aa3a01292ad9aeaaf87639c0b2509ccd92379506889222f16a",
+      "png_sha256": "45c89c655521dcfeb9fb03b890358e74eeac13752a2cdf154ba767e1d2b76a27"
+    }
+  ],
+  "verification": "Installed, launched, captured both displays, then quit via the device API. This is not comprehensive physical-device testing or verification on the latest release firmware."
+}
